@@ -1,0 +1,113 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.logo img {
+  width: 2.5rem;
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+  font-size: 1.6rem;
+  text-align: center;
+}
+
+.navcon {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.items {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  font-size: 1.2rem;
+}
+
+.menu {
+  display: none;
+}
+
+.cross {
+  display: none;
+}
+
+@media screen and (max-width: 900px) {
+  .menu {
+    display: flex;
+    max-width: 2rem;
+  }
+
+  .items {
+    position: absolute;
+    top: -1000px;
+    left: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    width: 100%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+  .cross {
+    display: flex;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+}
+
+.memnutogl {
+  top: 0px;
+}
+
+.x {
+  width: 20rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.x1{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.x2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ll{
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.hh{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ki{
+  display: flex;
+}
